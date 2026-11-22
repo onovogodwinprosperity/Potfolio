@@ -1,0 +1,10 @@
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: potfolio:latest
+    container_name: potfolio
+    ports:
+      - "8080:80"
+    restart: unless-stopped

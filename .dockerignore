@@ -1,0 +1,18 @@
+# Dependencies & build output
+node_modules
+dist
+npm-debug.log*
+
+# Version control & CI
+.git
+.github
+
+# Editor / OS
+.DS_Store
+*.local
+.idea
+.vscode
+
+# Docs & misc (not needed inside the image)
+README.md
+docker-compose.yml
